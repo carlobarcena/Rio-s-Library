@@ -1,7 +1,8 @@
 Program is made from Laravel Framework (5.6)
 
 Requirements:
-Xampp for Database
+Xampp for Database (PHP >= 7.1.3)
+Composer for Laravel (https://getcomposer.org/)
 
 1. Create Database name "riolib" in phpmyadmin.
 2. RUN run.bat (for Windows) or access console and go to the folder directory.
