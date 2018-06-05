@@ -14,7 +14,7 @@ class Magic extends Controller
     Artisan::call('migrate:refresh');
     	
 	$genre = ['Horror','Action','Romance','Thriller'];
-	$section = ['Circulation','Periodical Section','General Reference',"Chidren's Section",'Fiction'];
+	$section = ['Circulation','Periodical Section','General Reference',"Children's Section",'Fiction'];
     //Create 100 Books
     for($i=1;$i<101;$i++){
     $title[$i]='BookTitle' . $i;
